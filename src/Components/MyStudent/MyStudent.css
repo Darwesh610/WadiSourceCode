@@ -1,0 +1,37 @@
+.line {
+    width: 2px;
+    height: 250px;
+    background-color: #317640;
+    margin: auto;
+}
+@media screen and (max-width:768px) and (min-width:600px) {
+
+    .line {
+        width: 450px;
+        height: 2px;
+        margin: 20px 0px;
+    }
+    .ConStudents {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:600px) {
+
+    .line {
+        width: 430px;
+        height: 2px;
+        margin: 20px 0px;
+    }
+    .ConStudents {
+        width: 90%;
+        margin: auto;
+    }
+}
+.thead {
+    width: 100px;
+    height: 80px;
+}
+.thead img {
+    border-radius: 50%;
+}

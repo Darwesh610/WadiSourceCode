@@ -1,0 +1,53 @@
+.spanSize {
+    font-size: 13px;
+    color: #317640;
+    font-weight: 600;
+}
+.tableData {
+    font-size: 11px !important;
+    margin-left: 5px !important;
+}
+.activeSign {
+    font-size: 20px;
+}
+.Right{
+    color: #12802a;
+}
+.wrong {
+    color: rgb(165, 14, 14);
+}
+.modal-of-certs {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.tableDataCerts{
+    font-size: 15px;
+    font-weight: 600;
+}
+.marginRadio {
+margin-left: 70px;
+}
+.marginRadio1 {
+    margin-left: 70px;
+    }
+@media screen and (max-width:768px) and (min-width:600px) {
+    .marginRadio1 {
+        margin-left: 20px;
+        }
+        .marginRadio {
+            margin-left: 20px;
+            }
+}
+@media screen and (max-width:600px) {
+    .marginRadio1 {
+        margin-left: 20px;
+        }
+        .marginRadio {
+            margin-left: 20px;
+            }
+            .inputCheck {
+                margin-bottom: 0px;
+            }
+
+}

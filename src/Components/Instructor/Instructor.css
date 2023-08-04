@@ -1,0 +1,53 @@
+
+.CertsCon {
+    margin-top: 130px;
+    background-color: #31764042;
+    padding: 40px 0px 40px 130px;
+}
+
+.certCard {
+    margin-top: 20px;
+}
+.w-mine {
+  width: 25% !important;
+  margin-left: 45px;
+}
+@media screen and (max-width:768px) and (min-width:600px) {
+    .logoNav{
+        margin-left: 20px;
+    }
+    .CertsCon {
+        margin-top: 130px;
+        padding: 40px 0px 40px 80px;
+    }
+    .cardCont{
+        padding: 0px 20px;
+        width: 100%;
+      }
+      .w-mine {
+        width: 100% !important;
+        margin-left: 0px;
+      }
+
+}
+@media screen and (max-width:600px) {
+    .logoNav{
+        margin-left: 20px;
+    }
+    .certCard {
+        width: 70%;
+    }
+    .CertsCon {
+        margin-top: 130px;
+        padding: 40px 0px 40px 50px;
+    }
+    .cardCont{
+      padding: 0px 20px;
+      width: 100%;
+    }
+    .w-mine {
+        width: 100% !important;
+        margin-left: 0px;
+      }
+}
+

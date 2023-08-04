@@ -1,0 +1,234 @@
+.infoCon p {
+    font-weight: 600;
+    line-height: 0.5;
+}
+span {
+    font-weight: 300;
+    color: black;
+}
+.searchResult {
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+}
+.searchResult p {
+    font-size: 20px;
+    font-weight: 600;
+}
+.searchResult span {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-weight: 400;
+}
+.closeMark {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.selectTraining {
+    width: auto;
+    padding: 0px 10px;
+    height: auto;
+    background-color: #317640 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.selectTraining p {
+    margin-top: 13px;
+}
+.imgCon {
+    margin-top: 50px;
+}
+.face {
+    pointer-events: none;
+    z-index: -1;
+    cursor: none;
+}
+.Imgtitle {
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+.infoCardCon {
+    border: rgba(0, 0, 0, 0.459) 2px solid;
+    position: absolute;
+    top: 48.5%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.infoCon {
+    position: relative;
+}
+.CertName {
+    position: absolute;
+    font-size: 15px;
+    top: 7%;
+    right: 38%;
+    color: rgba(0, 0, 0, 0.658);
+}
+.StudName {
+    position: absolute;
+    top: 18%;
+    left: 19%;
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 12px;
+}
+.DateOfIssue {
+    position: absolute;
+    top: 39%;
+    left: 33%;
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 10px;
+}
+.FooterCon {
+    position: absolute;
+    bottom: -6%;
+    left: 20%;
+}
+.Footer {
+    font-size: 6px;
+    font-weight: 800;
+    color: rgb(83, 83, 247);
+}
+.DateOfBirth {
+    position: absolute;
+    top: 32%;
+    left: 33%;
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 10px;
+}
+.InstrName {
+    position: absolute;
+    top: 52.5%;
+    left: 37%;
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 12px;
+}
+.InstrNumber {
+    position: absolute;
+    top: 64%;
+    left: 32%;
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 12px;
+}
+.NumOfCert {
+    position: absolute;
+    top: 10.5%;
+    right: 4%;
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 10px;
+    font-weight: 600;
+}
+.tableINS {
+    font-size: 10px !important;
+    width: 100% !important;
+}
+.tableINS thead {
+    text-align: center;
+    border-bottom: 2px solid #317640;
+    margin-bottom: 10px !important;
+    overflow: hidden !important;
+}
+.tableINS tbody tr {
+    border-bottom: 0.5px solid #317640;
+    overflow: hidden !important;
+}
+.tableINS tbody tr {
+    margin-bottom: 10px;
+}
+.buttInsTable {
+    background-color: #317640;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 3px;
+    padding: 7px 7px;
+    font-weight: 400;
+    font-size: 10px;
+    margin: 10px 0px;
+}
+.buttInsTable:hover {
+    background-color: #317640e1;
+  }
+.buttInsTable:disabled {
+    background-color: #223f28e1;
+}
+.INSReff {
+    border-bottom: 0.5px solid #317640;
+    border-top: 0.5px solid #317640;
+    padding: 20px 0px;
+}
+.userImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+}
+.DataIns {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+.noActive {
+    height: 100px !important;
+    overflow: hidden;
+    transition: height 1s linear !important;
+}
+.activee {
+    height: 950px;
+    overflow: visible;
+    transition: height 1s linear !important;
+}
+.activeeWith {
+    height: auto;
+    overflow: visible;
+    transition: height 1s linear !important;
+}
+.NotiCon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+.closeCon2 {
+    top: -10%;
+    right: 5%;
+    width: auto;
+    font-size: 22px;
+    font-weight: 800;
+    color: #317640;
+    cursor: pointer;
+}
+.DataCon {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.DataCon h3 {
+    font-size: 17px;
+    margin-right: 10px;
+}
+.DataCon p {
+    font-size: 13px;
+}
+.numInput {
+    -webkit-appearance: none;
+}
+.CertStuImg {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    right: 2%;
+    top: 19%;
+}

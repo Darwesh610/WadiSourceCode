@@ -1,0 +1,69 @@
+.userImagee {
+    width: 200px;
+    height: 200px;
+}
+
+.UpdatePhoto {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 0px;
+    right: 80px;
+    background-color: white;
+    border: #317640e1 5px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #317640e1;
+    cursor: pointer;
+}
+.ImageCon {
+    background-color: #317640e1;
+    padding: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imgg {
+    border-radius: 50%;
+}
+.fileUploadInput {
+    width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.DataInsProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+.DataConProfile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: start;
+}
+.DataConProfile h3 {
+    font-size: 27px;
+    margin-right: 10px;
+    color: #317640e1;
+}
+.DataConProfile p {
+    font-size: 23px;
+}
+@media screen and (max-width:768px) and (min-width:600px) {
+    .ms-s-4 {
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .ms-s-4 {
+        margin-left: 20px;
+    }
+}

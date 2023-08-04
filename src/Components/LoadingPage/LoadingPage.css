@@ -1,0 +1,33 @@
+.loading {
+    background-color: #3176405b;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.imgLoading {
+    width: 60%;
+    height: 50%;
+}
+.loadingCon {
+    opacity: 0.9;
+}
+.spinSize {
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+@media screen  and (min-width:992px) {
+    .imgLoading {
+        width: 40%;
+        height: 20%;
+    }
+}
+@media screen and (max-width:992px) and (min-width:768px) {
+    .imgLoading {
+        width: 40%;
+        height: 20%;
+    }
+}

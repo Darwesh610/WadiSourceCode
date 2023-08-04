@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+form {
+  font-family: 'Oswald', sans-serif;
+}
+
+.header {
+    width: 300px;
+    height: 100px;
+}
+.headerLogo {
+    margin-top: 150px;
+    width: 150px;
+    height: 150px;
+}
+@media screen and (max-width:768px) and (min-width:600px) {
+    .headerLogo {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:600px) {
+    .headerLogo {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap');
+
+body {
+  margin: 0;
+  position: relative;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.font-color {
+  color: #317640;
+}
+.button {
+  background-color: #317640;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 5px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.badgeCredit {
+  background-color: #E86A33;
+  color: white;
+  font-size: 12px;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 5px 10px;
+
+}
+.hoverAncor {
+  transition: all 0.5s !important;
+}
+.hoverAncor:hover {
+  color: #31764094 !important;
+}
+
+.FinalButt {
+  background-color: #E86A33;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 5px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: #317640e1;
+}
+.button:disabled {
+  background-color: #223f28e1;
+}
+.logoOnly {
+  bottom: 0;
+  left: 0;
+  transform: rotate(45deg);
+}
+.logoOnly img {
+  width: 200px;
+  height: 200px;
+  opacity: 0.5;
+}
+.bg-green {
+  background-color: #317640 !important;
+  border-radius: 20px !important;
+}
+.input {
+  border: #3176408a solid 1px;
+  border-radius: 5px;
+  padding: 7px;
+}
+.input:focus {
+  outline: #31764057 4px solid;
+}
+.form-check-input {
+  cursor: pointer;
+}
+.form-check-input:checked {
+  background-color: rgb(101, 101, 230) !important;
+  border: none;
+}
+.span {
+  font-size: 12px;
+  display: block;
+  color: #317640;
+  font-weight: 800;
+}
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+.link {
+  text-decoration: none;
+  color: #317640e1;
+  font-weight: 800;
+}
+.link:hover {
+  color: #31764081;
+}
+.mr-5 {
+  margin-right: 80px;
+}
+.mt-6 {
+  margin-top: 80px;
+}
+.color-green {
+  color: #317640 !important;
+}
+
+.font-color {
+  color: #0707079c;
+}
+.logoInside{
+  position: fixed;
+  right: -50px;
+  bottom: -10px;
+  width: 280px;
+  height: 200px;
+  transform: rotate(-45deg);
+  opacity: 0.3;
+}
+.buttonWhite {
+  background-color: white;
+  border: none;
+  outline: none;
+  color: #317640;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 5px 2px;
+  transition: all 0.5s;
+}
+.buttonWhite:hover {
+  background-color: #9acea591;
+  color: white;
+}
+.date {
+  background-color: #317640;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.font-white {
+  color: white;
+}
+.inputWhite {
+  border: white solid 1px;
+  border-radius: 5px;
+}
+.inputWhite:focus {
+  outline: white 4px solid;
+}
+.mt-6 {
+  margin-top: 150px;
+}
